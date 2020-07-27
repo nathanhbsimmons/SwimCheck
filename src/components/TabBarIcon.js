@@ -1,11 +1,12 @@
-import { Ionicons } from '@expo/vector-icons';
+import Icon from 'react-native-vector-icons/FontAwesome'
+
 import * as React from 'react';
 
-import Colors from '../constants/Colors';
+import Colors from '../../constants/Colors';
 
 export default function TabBarIcon(props) {
   return (
-    <Ionicons
+    <Icon
       name={props.name}
       size={30}
       style={{ marginBottom: -3 }}
